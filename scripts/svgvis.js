@@ -21,7 +21,7 @@ const buttonStates = {
 	60: false,
 };
 let cc1 = 0;
-let cc2 = 0;
+let cc2 = 64;
 
 navigator.requestMIDIAccess({ sysex: false })
   .then(function(access) {
